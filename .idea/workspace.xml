@@ -7,10 +7,10 @@
     <list default="true" id="9d0c21f1-71b9-4fc7-82c4-710667d64407" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Adresse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Anrede.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Seminarmanager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

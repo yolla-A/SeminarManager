@@ -79,8 +79,8 @@ public class Person {
 
     public List<Adresse> getAdressen() {
         return  new ArrayList<Adresse>(this.adressen); //gives a copy of the list so any
-                                   // change in the list of addresses
-        // would affect the copy and has no effect on the original one.
+                                                      // change in the list of addresses
+                                                     // would affect the copy and has no effect on the original one.
     }
 
     public void setAdressen(List<Adresse> adressen) {
@@ -88,6 +88,9 @@ public class Person {
     }
 
     public void addAdresse(Adresse adresse) {
+        if(!adressen.contains(adresse)){
+            throw new IllegalArgumentException("this address already exists" );
+        }
         this.adressen.add(adresse);
 
     }
