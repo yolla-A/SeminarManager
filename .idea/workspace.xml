@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d0c21f1-71b9-4fc7-82c4-710667d64407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Adresse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Anrede.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Seminarmanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application (1).properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/akademie/swe/core/domain/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +38,56 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false"
+    "full.screen.before.presentation.mode": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Akademie\IdeaProjects\Seminarmanager\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonTest.personHasAlwaysOneAddress">
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Seminarmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.akademie.swe.core.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.akademie.swe.core.domain" />
+      <option name="MAIN_CLASS_NAME" value="de.akademie.swe.core.domain.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.personHasAlwaysOneAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Seminarmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.akademie.swe.core.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.akademie.swe.core.domain" />
+      <option name="MAIN_CLASS_NAME" value="de.akademie.swe.core.domain.PersonTest" />
+      <option name="METHOD_NAME" value="personHasAlwaysOneAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonTest.personHasAlwaysOneAddress" />
+        <item itemvalue="JUnit.PersonTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
