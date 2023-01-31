@@ -5,6 +5,37 @@
     <title>Startseite</title>
 </head>
 <body>
-Heee - ich bin die fancy startseite
+
+<form action="/person" method="post">
+
+    <select  id="anrede" name="anrede">
+        <option disabled selected value style="display:none;">Please select a Title</option>
+        <option value=''>&nbsp</option>
+        <option value="herr">Herr</option>
+        <option value="frau">Frau</option>
+        <option value="diverse">Diverse</option>
+    </select><br>
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="vorname">Vorname:</label><br>
+    <input type="text" id="vorname" name="vorname"><br>
+
+    <label for="geburtsdatum">Geburtsdatum:</label><br>
+    <input type="date" id="geburtsdatum" name="geburtsdatum"><br>
+
+    <label for="strasse">Strasse:</label><br>
+    <input type="text" id="strasse" name="strasse"><br>
+
+    <label for="plz">Plz:</label><br>
+    <input type="text" id="plz" name="plz"><br>
+
+    <label for="ort">Ort:</label><br>
+    <input type="text" id="ort" name="ort"><br>
+
+    <input type="submit" value="Submit">
+
+</form>
 </body>
 </html>

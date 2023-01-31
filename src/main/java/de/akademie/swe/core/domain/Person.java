@@ -92,7 +92,6 @@ public class Person {
         //return adressen //the original
                                     //references are  complex not for automaten daten typen
     }
-
     public void setAdressen(List<Adresse> adressen) {
         this.adressen = adressen;
     }
@@ -102,7 +101,6 @@ public class Person {
             throw new IllegalArgumentException("This address already exists");
         }
         this.adressen.add(adresse);
-
     }
 
     public void removeAdresse(Adresse adresse) {

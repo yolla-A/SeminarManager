@@ -16,11 +16,24 @@ public class Note {
     //The precision represents the number of significant digits that are stored for values,
     // and the scale represents the number of digits that can be stored following the decimal point.
 
-    @OneToOne       //here without cascadieren, because when deleting a note there wouldn't be a module
+    @OneToOne       //here without KasKadieren, because when deleting a note there wouldn't be a module
     @JoinColumn(name = "module_id",nullable = false) // more specified with fK , we can use this nullable
     private Modul modul;
 
-    public Note(){
+    @OneToOne
+    @JoinColumn(name = "person_id", nullable = false)
+    private Person person;
+
+    @OneToOne
+    @JoinColumn(name = "seminar_id", nullable = false)
+    private Seminar seminar;
+
+    private Note() {};
+    public Note(double note, Modul modul, Person person, Seminar seminar) {
+        this.note = note;
+        this.modul = modul;
+        this.person = person;
+        this.seminar = seminar;
     }
 
     public Note(double note, Modul modul) {
@@ -30,7 +43,7 @@ public class Note {
 
     public long getId() {
         return id;
-    }
+    }  //only get not set
 
     public void setNote(double note) {
         this.note = note;

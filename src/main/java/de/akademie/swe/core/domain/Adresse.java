@@ -41,7 +41,7 @@ public class Adresse {
 
     public long getId() { //only getter for Id no setter
         return id;
-    }
+    }  // only get , not set
 
     public String getStrasse() {
         return strasse;

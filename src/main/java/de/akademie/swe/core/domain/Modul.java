@@ -18,16 +18,41 @@ public class Modul {
     private String nummer;
 
     @Column(name = "creditpoints", nullable = false)
-    private int creditpoints;
+    private int creditPoints;
+    private Modul() {}
 
     public Modul(String name, String nummer, int creditPoints) {
         this.name = name;
         this.nummer = nummer;
-        this.creditpoints = creditPoints;
+        this.creditPoints = creditPoints;
     }
 
     public long getId() {
         return id;
+    }
+
+    public String getName () {
+        return name;
+    }
+
+    public void setName (String name) {
+        this.name = name;
+    }
+
+    public String getNummer () {
+        return nummer;
+    }
+
+    public void setNummer (String nummer) {
+        this.nummer = nummer;
+    }
+
+    public int getCreditPoints () {
+        return creditPoints;
+    }
+
+    public void setCreditPoints (int creditPoints) {
+        this.creditPoints = creditPoints;
     }
 
     @Override
@@ -49,7 +74,7 @@ public class Modul {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", nummer='" + nummer + '\'' +
-                ", kreditpoints=" + creditpoints +
+                ", creditpoints=" + creditPoints +
                 '}';
     }
 }

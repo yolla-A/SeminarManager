@@ -17,7 +17,7 @@ public class Seminar {
     @Column(name = "nummer", nullable = false, unique = true) // unique
     private String nummer;
 
-    @Column(name = "name", nullable = false)
+    @Column(name = "name", nullable = false) //(name = "name", unique = true)
     private String name;
 
     @Temporal(TemporalType.DATE)
@@ -97,7 +97,9 @@ public class Seminar {
     }
 
     public List<Modul> getModule() {
-        return module;
+
+        //return module;
+        return new ArrayList<>(this.module);
     }
 
     public void setModule(List<Modul> module) {

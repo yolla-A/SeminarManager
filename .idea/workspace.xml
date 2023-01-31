@@ -5,25 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d0c21f1-71b9-4fc7-82c4-710667d64407" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/Seminarmanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Modul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Seminar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Zertifikat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/service/PersonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/PersonRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/akademie/swe/core/domain/SeminarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/akademie/swe/service/PersonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/ModulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/SeminarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/dto/ModulDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/dto/NoteDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/dto/PersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/dto/SeminarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/dto/ZertifikatDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/service/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/service/ModulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/service/NotenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/service/SeminarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/service/ZertifikatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/GenericRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/ModulRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/NotenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/SeminarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/ZertifikatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/service/ModulServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/service/NotenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/service/SeminarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/AbstractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/ModulRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/NotenRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/SeminarRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/ZertifikatRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/Seminarmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/Seminarmanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/application/rest/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Adresse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Adresse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Modul.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Modul.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Note.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Seminarmanager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application (1).properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/akademie/swe/core/domain/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/akademie/swe/core/domain/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Seminar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/domain/Seminar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/repositories/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/core/service/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/PersonRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/akademie/swe/infrastructure/repositories/PersonRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +57,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -58,10 +81,15 @@
     "full.screen.before.presentation.mode": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.akademie.swe.application.rest.dto" />
+      <recent name="de.akademie.swe.application.rest" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Akademie\IdeaProjects\Seminarmanager\src\main\resources\public" />
       <recent name="C:\Users\Akademie\IdeaProjects\Seminarmanager\src\main\resources" />
